@@ -1,0 +1,32 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.about-paragraph{
+    font-size: 40px;
+}
+.learn-button-container{
+    display: flex;
+}
+.about-button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 3px;
+}
+.about-images-container{
+    background-color: antiquewhite;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 20px;
+    padding: 30px;
+    display: flex;
+}
+.images-container{
+    display: flex;
+    flex-direction: column;
+}

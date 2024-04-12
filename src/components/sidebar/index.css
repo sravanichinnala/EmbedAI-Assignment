@@ -1,0 +1,95 @@
+.sidebar-container{
+    background-color: #f7f7f5;
+    width: 20%;
+    background-size: cover;
+}
+.sidebar-heading{
+    color: #222222;
+    font-size: 20px;
+}
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.arrow-icon{
+    color: #d6ced1;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create-button{
+    border-radius: 15px;
+    border: 1px solid #d6ced1;
+    background-color: #f0ebed;
+    padding: 10px;
+    font-size: 15px;
+    color: #474747;
+    margin-left: 20px;
+}
+
+.discover-button{
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid #d6ced1;
+    background-color: #cfcccc;
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.chats-main-heading{
+    color: #222222;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.today-para{
+    color: #474747;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.chat-container{
+    display: flex;
+    padding-left: 20px;
+}
+.image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.chat{
+    color: #4d4c4c;
+    font-size: 15px;
+}
+.horizontal-line{
+    color: #222222;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.try-cai-button{
+    text-align: center;
+    width: 80%;
+    border-radius: 10px;
+    color: #474747;
+    border: 1px solid #d6ced1;
+    background-color: #cfcccc;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.user-container{
+    display: flex;
+    justify-content: center;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}

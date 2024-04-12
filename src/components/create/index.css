@@ -1,0 +1,8 @@
+.create-main-container{
+    display: flex;
+}
+.create-container{
+    padding: 30px;
+    background-color: #d6ced1;
+    background-size: cover;
+}

@@ -1,3 +1,8 @@
+.about-main-container{
+    background-color: gray;
+    background-size: cover;
+}
+
 .about-container{
     display: flex;
     flex-direction: column;
@@ -29,4 +34,10 @@
 .images-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
+.join-us-button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 3px;}

@@ -35,7 +35,9 @@ function Sidebar() {
       </button>
       <h2 className="chats-main-heading">Chats</h2>
       <div className="new-character-container">
-        <button onClick={navigateToCreate}>New Character ...</button>
+        <button onClick={navigateToCreate} className="new-charter-button">
+          New Character ...
+        </button>
       </div>
       <p className="today-para">today</p>
       <div className="chat-container">

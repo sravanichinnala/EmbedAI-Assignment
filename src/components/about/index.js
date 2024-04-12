@@ -49,6 +49,25 @@ class About extends Component {
               alt="about"
             />
           </div>
+          <h2 className="founders-heading">The Founders</h2>
+          <p className="founders-paragraph">
+            Noam Shazeer and Daniel De Freitas serve as CEO and President of
+            Character.AI, respectively. <br />A father of the LLM revolution,
+            Shazeer personally invented many of the core components of today’s
+            frontier large language models, including MoE, multi-head attention
+            (Transformer), tensor-parallel LLM training, multi-query attention,
+            SwiGLU, and more. Prior to the LLM era, he led development of
+            Google’s spelling corrector and the algorithm at the heart of
+            AdSense. <br />
+            De Freitas was fascinated with chatbots and human-like systems at an
+            early age and followed his passion of creating human-like AI by
+            working on open-ended question answering at Bing. He then worked at
+            Google, where he created and led the LLM LaMDA (formerly named
+            Meena1), the breakthrough conversational technology project. <br />
+            They are both committed to pushing the capabilities of technology
+            for the benefit of every person.
+          </p>
+          <button className="join-us-button">Join us!</button>
         </div>
       </div>
     );

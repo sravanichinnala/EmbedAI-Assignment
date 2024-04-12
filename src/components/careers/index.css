@@ -1,0 +1,20 @@
+.careers-main-container{
+    background-color: gray;
+    background-size: cover;
+}
+
+.careers-heading{
+    text-align: center;
+}
+.careers-container{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+.careers-paragraph{
+    color: blue;
+}
+.select{
+    margin: 10px;
+    padding: 10px;
+}

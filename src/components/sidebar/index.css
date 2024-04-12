@@ -51,6 +51,12 @@
   font-size: 20px;
   margin-left: 20px;
 }
+.new-charter-button{
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
 .today-para {
   color: #474747;
   font-size: 20px;

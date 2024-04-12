@@ -1,12 +1,14 @@
 import { Component } from "react";
+import "./index.css";
 import Sidebar from "../sidebar";
 class Create extends Component {
   render() {
     return (
-      <div className="create-main-container">
+      // <div className="create-main-container">
+      <div className="container">
         <Sidebar />
 
-        <div className="create-container">
+        <div className="create-main-container">
           <img src="" alt="" className="" />
           <label className="label-element">Character name</label>
           <input

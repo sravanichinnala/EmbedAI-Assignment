@@ -7,9 +7,10 @@ import "./index.css";
 class Chat extends Component {
   render() {
     return (
-      <div className="chat-main-container">
+      // <div className="chat-main-container">
+      <div className="container">
         <Sidebar />
-        <div className="chat-container">
+        <div className="chat-container-main">
           <div className="profile-container">
             <img
               src="https://characterai.io/i/80/static/avatars/Polyglot.png?webp=true&anim=0"
@@ -94,12 +95,12 @@ class Chat extends Component {
                 </div>
                 <FaArrowRotateRight className="icon" />
               </div>
-              <div className="input-container">
+              <div className="chat-input-container">
                 <input
-                  className="input-element"
+                  className="chat-input-element"
                   placeholder="Message HyperGlot..."
                 />
-                <IoMdArrowDroprightCircle />
+                <IoMdArrowDroprightCircle style={{ fontSize: "2rem" }} />
               </div>
             </div>
           </div>
